@@ -161,7 +161,7 @@ Before proceeding with the analysis and visualization, addressing missing data i
 
 Based on the provided .describe() command, here is an analysis of the numerical columns:
 
-# and video_id: The columns # and video_id represent identification numbers for each video. The mean and median values are close, indicating that these columns likely contain sequential or unique identifiers for each video.
+The # and video_id: The columns # and video_id represent identification numbers for each video. The mean and median values are close, indicating that these columns likely contain sequential or unique identifiers for each video.
 
 video_duration_sec: The video_duration_sec column represents the duration of the published videos measured in seconds. The mean video duration is approximately 32.42 seconds, with a minimum duration of 5 seconds and a maximum duration of 60 seconds.
 
