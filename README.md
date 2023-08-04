@@ -161,19 +161,19 @@ Before proceeding with the analysis and visualization, addressing missing data i
 
 Based on the provided .describe() command, here is an analysis of the numerical columns:
 
-The # and video_id: The columns # and video_id represent identification numbers for each video. The mean and median values are close, indicating that these columns likely contain sequential or unique identifiers for each video.
+`# and video_id`: The columns # and video_id represent identification numbers for each video. The mean and median values are close, indicating that these columns likely contain sequential or unique identifiers for each video.
 
-video_duration_sec: The video_duration_sec column represents the duration of the published videos measured in seconds. The mean video duration is approximately 32.42 seconds, with a minimum duration of 5 seconds and a maximum duration of 60 seconds.
+`video_duration_sec`: The video_duration_sec column represents the duration of the published videos measured in seconds. The mean video duration is approximately 32.42 seconds, with a minimum duration of 5 seconds and a maximum duration of 60 seconds.
 
-video_view_count: The video_view_count column represents the total number of times the published videos have been viewed. The mean view count is approximately 254,708.56, with a minimum of 20 views and a maximum of 999,817 views.
+`video_view_count`: The video_view_count column represents the total number of times the published videos have been viewed. The mean view count is approximately 254,708.56, with a minimum of 20 views and a maximum of 999,817 views.
 
-video_like_count: The video_like_count column represents the total number of times the published videos have been liked by other users. The mean like count is approximately 84,304.64, with a minimum of 0 likes and a maximum of 657,830 likes.
+`video_like_count`: The video_like_count column represents the total number of times the published videos have been liked by other users. The mean like count is approximately 84,304.64, with a minimum of 0 likes and a maximum of 657,830 likes.
 
-video_share_count: The video_share_count column represents the total number of times the published videos have been shared by other users. The mean share count is approximately 16,735.25, with a minimum of 0 shares and a maximum of 256,130 shares.
+`video_share_count`: The video_share_count column represents the total number of times the published videos have been shared by other users. The mean share count is approximately 16,735.25, with a minimum of 0 shares and a maximum of 256,130 shares.
 
-video_download_count: The video_download_count column represents the total number of times the published videos have been downloaded by other users. The mean download count is approximately 1,049.43, with a minimum of 0 downloads and a maximum of 14,994 downloads.
+`video_download_count`: The video_download_count column represents the total number of times the published videos have been downloaded by other users. The mean download count is approximately 1,049.43, with a minimum of 0 downloads and a maximum of 14,994 downloads.
 
-video_comment_count: The video_comment_count column represents the total number of comments on the published videos. The mean comment count is approximately 349.31, with a minimum of 0 comments and a maximum of 9,599 comments.
+`video_comment_count`: The video_comment_count column represents the total number of comments on the published videos. The mean comment count is approximately 349.31, with a minimum of 0 comments and a maximum of 9,599 comments.
 
 ## Tableau Visualization
 
