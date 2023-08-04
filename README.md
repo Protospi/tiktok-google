@@ -1,7 +1,7 @@
 
 # TikTok Claims Classification EDA & Data Visualization Project
 
-[]()
+![](tiktok.png)
 
 ## Project Overview
 
