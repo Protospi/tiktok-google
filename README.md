@@ -177,6 +177,30 @@ Based on the provided .describe() command, here is an analysis of the numerical 
 
 `video_comment_count`: The video_comment_count column represents the total number of comments on the published videos. The mean comment count is approximately 349.31, with a minimum of 0 comments and a maximum of 9,599 comments.
 
+### Select data vosualization types
+
+For the Exploratory Data Analysis (EDA) of the TikTok dataset, several data visualization types can help us understand and explain the data. Considering the distribution of the data and the specific data columns we'll be using, the following visualization types would be most helpful:
+
+1. **Bar Chart**: A bar chart would be useful for visualizing categorical data, such as the distribution of `claim_status`, `verified_status`, and `author_ban_status`. It will help us see the frequency of each category and understand the proportion of claims and opinions, as well as the distribution of verified and banned users.
+
+2. **Box Plot**: Box plots are effective for visualizing the distribution of numerical data, such as `video_view_count`, `video_like_count`, `video_share_count`, `video_download_count`, and `video_comment_count`. Box plots will help us identify potential outliers and understand the spread and central tendency of these variables.
+
+3. **Histogram**: Histograms are suitable for visualizing the distribution of continuous numerical data, such as `video_duration_sec`. They will allow us to observe the frequency of different video durations and identify patterns in the data.
+
+4. **Scatter Plot**: Scatter plots can be useful for exploring relationships between two numerical variables, such as `video_view_count` and `video_like_count`, or `video_view_count` and `video_share_count`. Scatter plots will help us identify any correlations or trends between these variables.
+
+Notes: All the continuous variables can be also broked down by categorical variables specially the variable of most interest `clain_status`.
+
+## PACE: Construct
+
+In the Construct stage of the data analysis process, we leverage the insights gained from the previous stages to build meaningful visualizations that bring clarity and understanding to the TikTok dataset. Having assessed our data and understood its characteristics, it is time to embark on the task of plotting visualizations.
+
+### Build Visualizations
+
+The primary objective in this stage is to use appropriate data visualization techniques to effectively communicate patterns, trends, and relationships within the dataset. By selecting the most suitable visualization types, such as bar charts, box plots, histograms, and scatter plots, we aim to gain deeper insights into the distribution of variables, identify potential outliers, and explore connections between different data attributes.
+
+Through well-crafted visualizations, we can unravel valuable information, enabling us to make data-driven decisions and present compelling findings to stakeholders and team members. This Construct stage lays the foundation for further analysis and helps us move forward with confidence, armed with a comprehensive understanding of the TikTok dataset.
+
 ## Tableau Visualization
 
 
