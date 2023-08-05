@@ -215,7 +215,7 @@ The Jupyter Notebook served as a powerful tool in documenting and presenting our
 
 ## Tableau Visualization
 
-[Dahsboard](https://public.tableau.com/authoring/TikTokVideos/LikesvsCommentsOpinions#1)
+[Dahsboard](https://public.tableau.com/authoring/TikTokVideos/LikesvsCommentsOpinions/Dashboard%201#1)
 
 ## Executive Summary
 
