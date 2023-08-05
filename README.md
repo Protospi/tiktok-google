@@ -201,7 +201,62 @@ The primary objective in this stage is to use appropriate data visualization tec
 
 Through well-crafted visualizations, we can unravel valuable information, enabling us to make data-driven decisions and present compelling findings to stakeholders and team members. This Construct stage lays the foundation for further analysis and helps us move forward with confidence, armed with a comprehensive understanding of the TikTok dataset.
 
+## Execute: Jupyter Notebook
+
+In the Execute step of the PACE strategy, we utilized a Jupyter Notebook to carry out an extensive data analysis on the TikTok dataset. The notebook incorporated Python libraries such as Pandas, Matplotlib, and Seaborn to perform data exploration, visualization, and cleaning. We began by understanding the dataset's size and structure, which comprised 19,382 rows and 12 columns. Leveraging the head() and info() functions, we gained a glimpse of the data's content and data types, identifying some missing values in certain columns.
+
+To better understand the data distributions, we used various visualization types such as histograms, bar charts, and pie charts. The histogram of video duration in seconds revealed distinct patterns, suggesting the influence of popular dance songs repeatedly shared on the platform. The view count histogram indicated a right-skewed distribution, with the majority of videos having relatively low viewership, while a few videos had exceptionally high view counts.
+
+Furthermore, we visualized the like, comment, share, and download counts, which exhibited similar right-skewed patterns with long tails. The pie chart comparing claim and opinion videos' view proportions provided valuable insights into the data's distribution.
+
+During the data cleaning process, we handled missing values and outliers. By calculating the Interquartile Range (IQR) and identifying videos with counts exceeding 15 times the IQR, we identified and dealt with outliers. The notebook was instrumental in systematically exploring the data and extracting valuable information for further analysis and decision-making.
+
+The Jupyter Notebook served as a powerful tool in documenting and presenting our data analysis steps, results, and visualizations in an organized and interactive manner. As we move forward with the project, the insights gained from this execution phase will guide subsequent steps and help achieve the project's objectives effectively.
+
 ## Tableau Visualization
 
+[Dahsboard](https://public.tableau.com/authoring/TikTokVideos/LikesvsCommentsOpinions#1)
 
 ## Executive Summary
+
+1. Video Duration in Seconds:
+   - The distribution of video durations shows multiple modes, possibly indicating recurring posts of popular dance songs.
+   - The majority of videos have durations between 5 and 6 seconds, with each bin representing around 1 second.
+
+2. Video View Counts:
+   - The distribution of video view counts is right or positively skewed, with a long tail.
+   - Over 50% of the videos have less than 10,000 views, while the minimum view count is recorded at 20 views.
+   - The 75th percentile of the data indicates that 75% of videos have 500,000 or fewer views.
+   - The mean view count is significantly higher than the median, suggesting the presence of a few videos with exceptionally high view counts.
+   - The video with the highest number of views received over 1 million views.
+
+3. Video Like Count:
+   - The distribution of video like counts exhibits a right or positive skew, with a long tail in the data.
+   - Over 12,000 videos have less than 3,500 likes, and some videos received zero likes.
+   - The 75th percentile of the data shows that 75% of videos have 125,000 or fewer likes.
+   - The mean like count is notably higher than the median, indicating videos with a large number of likes.
+   - The video with the most likes obtained more than 650,000 likes.
+
+4. Video Comment Count:
+   - The distribution of video comment counts displays a right or positive skew, with a long tail.
+   - Over 50% of the videos have fewer than 10 comments, with some videos receiving zero comments.
+   - The 75th percentile of the data reveals that 75% of the videos have fewer than 300 comments.
+   - The mean comment count is substantially higher than the median, with the maximum reaching 9,599 comments.
+
+5. Video Share Count:
+   - The distribution of video share counts is right or positively skewed, with a long tail.
+   - Over 50% of the videos have less than 720 shares, and some videos received zero shares.
+   - The 75th percentile of the data shows that 75% of the videos have fewer than 18,300 shares.
+   - The mean share count exceeds the median, with the maximum reaching 256,130 shares.
+
+6. Video Download Count:
+   - The distribution of video download counts is right or positively skewed, with a long tail.
+   - Over 50% of the videos have less than 46 downloads, and some videos have zero downloads.
+   - The 75th percentile of the data reveals that 75% of the videos have fewer than 1,200 downloads.
+   - The video with the most downloads reached 15,000 downloads.
+
+Additionally, we present the counts of videos by claim status and verify the median view count for each claim status. The data indicates that claim videos tend to have a higher median view count compared to opinion videos.
+
+Finally, we explore the presence of outliers in each column using a threshold of 15 times the interquartile range (IQR). The results show that there are no outliers in the view count, like count, share count, and download count columns. However, there are 212 outliers in the comment count column.
+
+These findings offer valuable insights into the TikTok dataset, facilitating the identification of patterns, trends, and outliers. As we continue with this project, these insights will guide data-driven decision-making and contribute to a deeper understanding of the TikTok platform.
