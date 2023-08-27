@@ -260,3 +260,34 @@ Additionally, we present the counts of videos by claim status and verify the med
 Finally, we explore the presence of outliers in each column using a threshold of 15 times the interquartile range (IQR). The results show that there are no outliers in the view count, like count, share count, and download count columns. However, there are 212 outliers in the comment count column.
 
 These findings offer valuable insights into the TikTok dataset, facilitating the identification of patterns, trends, and outliers. As we continue with this project, these insights will guide data-driven decision-making and contribute to a deeper understanding of the TikTok platform.
+
+## Hypothesis test of video views by verified status
+
+### Introduction
+The analysis aims to determine if the observed difference in sample data is statistically significant and whether it reflects an actual difference in the corresponding population means.
+
+### Hypotheses
+- Null Hypothesis (𝐻₀): There is no difference in the mean number of views between TikTok videos posted by verified and unverified accounts.
+- Alternative Hypothesis (𝐻𝐴): There is a difference in the mean number of views between TikTok videos posted by verified and unverified accounts.
+
+### Analysis Summary
+The analysis involved the following steps:
+
+2. **Descriptive Statistics:** Descriptive statistics were calculated to summarize the mean view counts for verified and unverified accounts:
+   - Videos posted by unverified accounts: 265,663.79
+   - Videos posted by verified accounts: 91,439.16
+
+3. **Hypothesis Testing:** A two-sample t-test was performed using the `scipy.stats.ttest_ind` function, yielding a statistic of 25.50 and a p-value of approximately 2.61e-120.
+
+### Findings
+The extremely low p-value (2.61e-120) indicates strong evidence against the null hypothesis. This suggests that the observed difference in view counts between verified and unverified TikTok videos is highly unlikely to be due to chance alone.
+
+### Conclusion
+The analysis provides compelling evidence that there is a significant difference in the number of views between TikTok videos posted by verified and unverified accounts. Verified accounts tend to have lower view counts compared to unverified accounts.
+
+### Implications
+For content creators, marketers, and TikTok users, these findings highlight the importance of account verification and its potential impact on video views. The analysis prompts further investigation into strategies for verified accounts to enhance engagement and reach among their audience.
+
+### Complete Analysis
+For a more comprehensive analysis, including detailed steps, statistical methods, visualizations, and the complete code, please refer to the Jupyter Notebook TikTok Hypothesis test provided in this repository.
+
